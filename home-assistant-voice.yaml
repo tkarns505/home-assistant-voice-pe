@@ -1717,6 +1717,7 @@ micro_wake_word:
   stop_after_detection: false
   models:
     - model: https://raw.githubusercontent.com/tkarns505/home-assistant-voice-pe/dev/hey_trooper.json
+      id: hey_trooper
     - model: hey_jarvis
       id: hey_jarvis
     - model: hey_mycroft
