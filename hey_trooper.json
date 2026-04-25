@@ -1,0 +1,17 @@
+{
+  "type": "micro",
+  "wake_word": "Hey Trooper",
+  "author": "Tristan",
+  "model": "hey_trooper.tflite",
+  "trained_languages": [
+    "en-US"
+  ],
+  "version": 2,
+  "micro": {
+    "probability_cutoff": 0.3,
+    "feature_step_size": 10,
+    "sliding_window_size": 5,
+    "tensor_arena_size": 60000,
+    "minimum_esphome_version": "2024.7.0"
+  }
+}
