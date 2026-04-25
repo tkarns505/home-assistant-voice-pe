@@ -1716,8 +1716,7 @@ micro_wake_word:
     gain_factor: 4
   stop_after_detection: false
   models:
-    - model: https://qepzjfj5qca5fdvljcmcm9xecaj7cpsq.ui.nabu.casa/local/hey_trooper.json
-      id: hey_trooper
+    - model: https://raw.githubusercontent.com/tkarns505/home-assistant-voice-pe/dev/hey_trooper.json
     - model: hey_jarvis
       id: hey_jarvis
     - model: hey_mycroft
